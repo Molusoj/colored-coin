@@ -24,6 +24,24 @@
 .hero-nav-list {
 }
 
-.hero-nav-item {
-  border-bottom: 2px solid white;
+.hero-nav-list {
+}
+
+.nav-link {
+  color: grey;
+  border-bottom: 5px solid grey;
+  border-radius: 5px;
+  margin: 0 15px;
+}
+
+.nav-item .nav-active {
+  color: #fff !important;
+  border-bottom: 5px solid white;
+  border-radius: 5px;
+}
+
+.nav-item:hover,
+.nav-link:hover {
+  color: #fff;
+  border-color: white;
 }
