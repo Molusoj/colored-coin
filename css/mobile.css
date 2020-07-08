@@ -24,7 +24,9 @@
 .hero-nav-list {
 }
 
-.hero-nav-list {
+.hero-nav-list,
+.nav-link .nav-link {
+  font-size: 0.35rem;
 }
 
 .nav-link {
