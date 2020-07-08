@@ -13,7 +13,7 @@
 
 .figure-holder {
   background: url(../assets/images/img-mockup.png) no-repeat;
-  background-size: contain;
+  background-size: 70%;
   background-position: 50% 35px;
   min-height: 400px;
 }
