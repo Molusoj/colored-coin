@@ -1,0 +1,28 @@
+/* Hero figure */
+/* .hero-figure {
+  position: absolute;
+  top: -90px;
+  left: 100px;
+} */
+
+.header {
+  /* min-width: 600px; */
+}
+
+/* Hero Nav */
+
+.figure-holder {
+  background: url(../assets/images/img-mockup.png) no-repeat;
+  background-size: contain;
+  background-position: 50% 35px;
+  min-height: 400px;
+}
+.hero-nav {
+}
+
+.hero-nav-list {
+}
+
+.hero-nav-item {
+  border-bottom: 2px solid white;
+}
