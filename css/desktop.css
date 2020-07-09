@@ -112,15 +112,7 @@
   .site-tagline {
     font-size: 0.75rem;
   }
-  /* .hero-section .figure-holder {
-  background: url(../assets/images/img-mockup.png) no-repeat;
-  background-size: contain;
-  background-position: 25px 0px;
-  min-height: 300px;
-} */
-  .hero-section .app-stores img {
-    height: 45px;
-  }
+
   @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .hero-section .app-stores img.ios {
       width: 135px;

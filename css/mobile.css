@@ -1,9 +1,4 @@
 /* Hero figure */
-/* .hero-figure {
-  position: absolute;
-  top: -90px;
-  left: 100px;
-} */
 
 .header {
   /* min-width: 600px; */
@@ -11,13 +6,12 @@
 }
 
 /* Hero Nav */
-
-.figure-holder {
+/* .figure-holder {
   background: url(../assets/images/img-mockup.png) no-repeat;
   background-size: 70%;
   background-position: 50% 85%;
   min-height: 500px;
-}
+} */
 .hero-nav {
 }
 
