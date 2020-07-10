@@ -1,43 +1,5 @@
-/* Hero figure */
-
-.header {
-  /* min-width: 600px; */
-  /* height: 80vh; */
-}
-
-/* Hero Nav */
-/* .figure-holder {
-  background: url(../assets/images/img-mockup.png) no-repeat;
-  background-size: 70%;
-  background-position: 50% 85%;
-  min-height: 500px;
-} */
-.hero-nav {
-}
-
-.hero-nav-list {
-}
-
-.hero-nav-list,
-.nav-link .nav-link {
-  font-size: 0.35rem;
-}
-
-.nav-link {
-  color: grey;
-  border-bottom: 5px solid grey;
-  border-radius: 5px;
-  margin: 0 15px;
-}
-
-.nav-item .nav-active {
-  color: #fff !important;
-  border-bottom: 5px solid white;
-  border-radius: 5px;
-}
-
-.nav-item:hover,
-.nav-link:hover {
-  color: #fff;
-  border-color: white;
+@media (min-width: 575.98px) {
+  .card-lower {
+    margin-top: 0;
+  }
 }

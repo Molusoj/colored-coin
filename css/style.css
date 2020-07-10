@@ -132,6 +132,25 @@ h6 {
   top: 2rem;
 }
 
+.nav-link {
+  color: grey;
+  border-bottom: 5px solid grey;
+  border-radius: 5px;
+  margin: 0 15px;
+}
+
+.nav-item .nav-active {
+  color: #fff !important;
+  border-bottom: 5px solid white;
+  border-radius: 5px;
+}
+
+.nav-item:hover,
+.nav-link:hover {
+  color: #fff;
+  border-color: white;
+}
+
 .logo-icon {
   width: 100px;
 }
@@ -150,6 +169,15 @@ h6 {
   background-color: #1b203e;
   height: 50%;
   width: 100%;
+  /* line-height: 50px; */
+}
+
+.hero-section .site-headline {
+  font-size: 36px;
+}
+
+.hero-section .site-tagline {
+  font-size: 1rem;
 }
 .second-section::before {
   content: "";

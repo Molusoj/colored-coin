@@ -1,162 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     />
-    <!-- Google Font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Muli:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- FontAwesome JS-->
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
-      integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Plugins CSS -->
-    <link
-      rel="stylesheet"
-      href="assets/plugins/jquery-flipster/dist/jquery.flipster.min.css"
-    />
-
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/mobile.css" />
-    <link rel="stylesheet" href="./css/desktop.css" />
-    <link rel="stylesheet" href="./css/menu.css" />
-
+    <link rel="stylesheet" href="./css/slider.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   </head>
   <body>
-    <div class="mobile-view">
-      
-      <!-- <header class="header">
-        <div class="branding">
-          <div class="container position-relative">
-            <nav class="navbar p-2">
-              <h1 class="site-logo">
-                <a class="navbar-brand" href="/"
-                  ><img
-                    class="logo-icon"
-                    src="assets/images/logo-b.png"
-                    alt="logo"
-                /></a>
-              </h1>
-            </nav>
-            <ul class="social-list list-inline mb-0 position-absolute">
-              <li class="list-inline-item">
-                <a class="btn btn-light text-dark" href="/"><span</span></a>
-              </li>
-             
-            
-            </ul>
-          </div>
-        </div>
-      </header> -->
-      <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand" href="#"><img
-            class="logo-icon"
-            src="assets/images/logo-b.png"
-            alt="logo"
-        /></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="pos-f-t">
-            <div class="collapse" id="navbarToggleExternalContent">
-              <div class="bg-dark p-4">
-                <h5 class="text-white h4">Collapsed content</h5>
-                <span class="text-muted">Toggleable via the navbar brand.</span>
+    <div class="testimonial-section">
+      <div class="inner-width">
+        <h1>What Client Says</h1>
+        <div class="border"></div>
+
+        <div class="slides owl-carousel">
+          <div class="testimonial">
+            <div class="test-info">
+              <img class="test-pic" src="img/p1.png" alt="" />
+              <div class="test-name">
+                <span>Client1</span>
+                @client1
               </div>
             </div>
-        </nav>
-      </header>
-      
-      <!--//header-->
-    
-      <section class="hero-section">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-sm-12 ">
-              <img src="./assets/images/img-mockup.png" class="img-fluid" alt="">
-            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+              temporibus minus nam, sed quaerat odio iste ipsa autem suscipit,
+              magnam mollitia iusto enim praesentium possimus modi tenetur
+              neque, molestiae ratione.
+            </p>
           </div>
 
-          <!--//row-->
-        </div>
-      </section>
-
-      <section class="hero-info pt-5">
-        <div class="container">
-          <div class="row text-center">
-            
-         
-            <div class="col-sm-12 pt-md-4">
-              <img
-                src="./assets/images/logo-b.png"
-                class="img-fluid"
-                width="250px"
-                alt=""
-              />
-              <h2 class="site-headline font-weight-light pt-lg-5">
-                MAXIMIZE YOUR PROFIT
-              </h2>
-              <p class="site-tagline mb-3">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
-                architecto, odit corporis reiciendis eius laboriosam consequatur
-                maxime quisquam animi eveniet quidem vitae? Iure enim praesentium
-                esse similique doloremque? Numquam, quo.
-              </p>
-              <div class="cta-btns">
-                <div class="row mb-4">
-                  <div class="col">
-                    <a class="btn btn-primary font-weight-bold theme-btn" href="/"
-                      >Buy Now</a
-                    >
-                  </div>
-                  <div class="col">
-                    <a class="btn btn-lg rounded-bottom btn-outline-light  theme-btn" href="/"
-                      >Start Now</a
-                    >
-                  </div>
-                </div>
+          <div class="testimonial">
+            <div class="test-info">
+              <img class="test-pic" src="img/p2.png" alt="" />
+              <div class="test-name">
+                <span>Client2</span>
+                @client2
               </div>
             </div>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+              temporibus minus nam, sed quaerat odio iste ipsa autem suscipit,
+              magnam mollitia iusto enim praesentium possimus modi tenetur
+              neque, molestiae ratione.
+            </p>
+          </div>
+
+          <div class="testimonial">
+            <div class="test-info">
+              <img class="test-pic" src="img/p3.png" alt="" />
+              <div class="test-name">
+                <span>Client3</span>
+                @client3
+              </div>
             </div>
-      </section>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+              temporibus minus nam, sed quaerat odio iste ipsa autem suscipit,
+              magnam mollitia iusto enim praesentium possimus modi tenetur
+              neque, molestiae ratione.
+            </p>
+          </div>
+
+          <div class="testimonial">
+            <div class="test-info">
+              <img class="test-pic" src="img/p2.png" alt="" />
+              <div class="test-name">
+                <span>Client2</span>
+                @client2
+              </div>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+              temporibus minus nam, sed quaerat odio iste ipsa autem suscipit,
+              magnam mollitia iusto enim praesentium possimus modi tenetur
+              neque, molestiae ratione.
+            </p>
+          </div>
+          <div class="testimonial">
+            <div class="test-info">
+              <img class="test-pic" src="img/p2.png" alt="" />
+              <div class="test-name">
+                <span>Client2</span>
+                @client2
+              </div>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+              temporibus minus nam, sed quaerat odio iste ipsa autem suscipit,
+              magnam mollitia iusto enim praesentium possimus modi tenetur
+              neque, molestiae ratione.
+            </p>
+          </div>
+          <div class="testimonial">
+            <div class="test-info">
+              <img class="test-pic" src="img/p2.png" alt="" />
+              <div class="test-name">
+                <span>Client2</span>
+                @client2
+              </div>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+              temporibus minus nam, sed quaerat odio iste ipsa autem suscipit,
+              magnam mollitia iusto enim praesentium possimus modi tenetur
+              neque, molestiae ratione.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!--//hero-section-->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+    <script type="text/javascript">
+      $(".owl-carousel").owlCarousel({
+        margin: 10,
+        responsiveClass: true,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+
+        responsive: {
+          0: {
+            items: 1,
+          },
+          680: {
+            items: 2,
+          },
+          960: {
+            items: 3,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
