@@ -1,152 +1,44 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    />
-    <link rel="stylesheet" href="./css/slider.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  </head>
-  <body>
-    <div class="testimonial-section">
-      <div class="inner-width">
-        <h1>What Client Says</h1>
-        <div class="border"></div>
+<nav class="navbar navbar-expand-lg">
+  <h1 class="site-logo">
+    <a class="navbar-brand" href="/"
+      ><img class="logo-icon" src="assets/images/logo-b.png" alt="logo"
+    /></a>
+  </h1>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navigation"
+    aria-controls="navigation"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-        <div class="slides owl-carousel">
-          <div class="testimonial">
-            <div class="test-info">
-              <img class="test-pic" src="img/p1.png" alt="" />
-              <div class="test-name">
-                <span>Client1</span>
-                @client1
-              </div>
-            </div>
+  <div class="collapse navbar-collapse p-1 p-lg-0" id="navigation">
+    <ul class="navbar-nav ml-lg-auto">
+      <li class="nav-item active mr-lg-4">
+        <a class="nav-link" href="index.html"
+          >Home <span class="sr-only">(current)</span></a
+        >
+      </li>
+      <li class="nav-item mr-lg-4">
+        <a class="nav-link" href="features.html">Features</a>
+      </li>
+      <li class="nav-item mr-lg-4">
+        <a class="nav-link" href="pricing.html">Pricing</a>
+      </li>
+      <li class="nav-item mr-lg-4">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item mr-lg-4">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
 
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-              temporibus minus nam, sed quaerat odio iste ipsa autem suscipit,
-              magnam mollitia iusto enim praesentium possimus modi tenetur
-              neque, molestiae ratione.
-            </p>
-          </div>
-
-          <div class="testimonial">
-            <div class="test-info">
-              <img class="test-pic" src="img/p2.png" alt="" />
-              <div class="test-name">
-                <span>Client2</span>
-                @client2
-              </div>
-            </div>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-              temporibus minus nam, sed quaerat odio iste ipsa autem suscipit,
-              magnam mollitia iusto enim praesentium possimus modi tenetur
-              neque, molestiae ratione.
-            </p>
-          </div>
-
-          <div class="testimonial">
-            <div class="test-info">
-              <img class="test-pic" src="img/p3.png" alt="" />
-              <div class="test-name">
-                <span>Client3</span>
-                @client3
-              </div>
-            </div>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-              temporibus minus nam, sed quaerat odio iste ipsa autem suscipit,
-              magnam mollitia iusto enim praesentium possimus modi tenetur
-              neque, molestiae ratione.
-            </p>
-          </div>
-
-          <div class="testimonial">
-            <div class="test-info">
-              <img class="test-pic" src="img/p2.png" alt="" />
-              <div class="test-name">
-                <span>Client2</span>
-                @client2
-              </div>
-            </div>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-              temporibus minus nam, sed quaerat odio iste ipsa autem suscipit,
-              magnam mollitia iusto enim praesentium possimus modi tenetur
-              neque, molestiae ratione.
-            </p>
-          </div>
-          <div class="testimonial">
-            <div class="test-info">
-              <img class="test-pic" src="img/p2.png" alt="" />
-              <div class="test-name">
-                <span>Client2</span>
-                @client2
-              </div>
-            </div>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-              temporibus minus nam, sed quaerat odio iste ipsa autem suscipit,
-              magnam mollitia iusto enim praesentium possimus modi tenetur
-              neque, molestiae ratione.
-            </p>
-          </div>
-          <div class="testimonial">
-            <div class="test-info">
-              <img class="test-pic" src="img/p2.png" alt="" />
-              <div class="test-name">
-                <span>Client2</span>
-                @client2
-              </div>
-            </div>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-              temporibus minus nam, sed quaerat odio iste ipsa autem suscipit,
-              magnam mollitia iusto enim praesentium possimus modi tenetur
-              neque, molestiae ratione.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script type="text/javascript">
-      $(".owl-carousel").owlCarousel({
-        margin: 10,
-        responsiveClass: true,
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 1000,
-        autoplayHoverPause: true,
-
-        responsive: {
-          0: {
-            items: 1,
-          },
-          680: {
-            items: 2,
-          },
-          960: {
-            items: 3,
-          },
-        },
-      });
-    </script>
-  </body>
-</html>
+      <li class="nav-item mr-0">
+        <a class="nav-link" href="signup.html">Sign Up</a>
+      </li>
+    </ul>
+  </div>
+</nav>
