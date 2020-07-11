@@ -96,6 +96,10 @@ h6 {
   display: inline-block;
 }
 
+.io-zinnia .section-bg {
+  background: none !important;
+}
+
 .gradient-button:hover {
   box-shadow: 0 10px 20px #fff389, 0 6px 6px #ffa42a;
   margin: 8px 10px 12px;
@@ -122,4 +126,74 @@ h6 {
   .io-zinnia .site-header .is-transparent + .banner .banner-content {
     padding-bottom: 60px;
   }
+}
+
+.io-zinnia .section-bg .section-title-s7,
+.io-zinnia .section-bg .section-title-md,
+.io-zinnia .section-bg-alt .section-title-s7,
+.io-zinnia .section-bg-alt .section-title-md {
+  color: #10122d;
+}
+
+/* How it Workss */
+.services-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  z-index: -1;
+  background-image: url(../images/Logomark.png) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.service-item {
+  /* padding-: 50px; */
+  padding: 10px 20px 50px 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #10122d;
+  color: white !important;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.service-icon {
+  position: relative;
+  width: 80px;
+  /* transform: rotate(-45deg); */
+  margin-bottom: 25px;
+}
+.service-icon:after {
+  position: absolute;
+  content: "";
+  height: 62px;
+  width: 62px;
+  top: 50%;
+  left: 50%;
+  border: 2px solid none !important;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+}
+.service-item .service-icon h1 {
+  box-sizing: border-box;
+}
+
+.io-zinnia .section-bg .section-item h5,
+.service-item p {
+  /* color: white !important; */
+}
+
+/* Sell Bitcoin Section */
+.sell-bitcoin {
+  color: #1b203e !important;
+}
+
+.sell-bitcoin h3 {
+  color: #1b203e !important;
 }
