@@ -27,10 +27,25 @@ h6 {
 .bc-blue {
   background-color: #1b203e;
 }
-
-.site-header {
+.text-blue {
+  color: #10122d !important;
 }
 
+.site-header .navbar-brand img {
+  width: auto;
+  max-width: 100%;
+  max-height: 80px;
+}
+
+.io-zinnia .site-header.has-fixed .navbar-nav > li > a:hover,
+.io-zinnia .site-header.has-fixed .navbar-nav > li > a.active {
+  color: #ffa42a;
+}
+
+.io-zinnia .active .navbar-toggler:hover,
+.io-zinnia .active .navbar-toggler:focus {
+  background: #ffa42a;
+}
 .banner-zinnia {
   background: #10122d !important;
   overflow: hidden;
@@ -153,11 +168,11 @@ h6 {
 }
 
 .service-item {
-  /* padding-: 50px; */
-  padding: 10px 20px 50px 20px;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  /* padding-bottom: 50px; */
+  padding: 15px;
+  max-width: 450px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   background-color: #10122d;
   color: white !important;
   border-radius: 15px;
@@ -182,12 +197,19 @@ h6 {
   transform: translate(-50%, -50%);
 }
 .service-item .service-icon h1 {
+  color: #fff;
   box-sizing: border-box;
+  font-size: 24px;
 }
 
-.io-zinnia .section-bg .section-item h5,
-.service-item p {
-  /* color: white !important; */
+.io-zinnia .section-bg h5 {
+  color: white;
+  font-size: 16px;
+}
+
+.io-zinnia .section-bg p {
+  color: white;
+  font-size: 14px;
 }
 
 /* Sell Bitcoin Section */
@@ -196,6 +218,9 @@ h6 {
 }
 
 .sell-bitcoin h3 {
+  color: #1b203e !important;
+}
+.sell-bitcoin p {
   color: #1b203e !important;
 }
 
@@ -315,4 +340,23 @@ h6 {
 .io-zinnia .section-bg p,
 .io-zinnia .section-bg-alt p {
   color: #fff;
+}
+
+/* Footer Section */
+
+.io-zinnia .footer-section {
+  overflow: hidden;
+  background-image: none !important;
+}
+
+.widget-subsctibe p {
+  color: #10122d;
+}
+
+.io-zinnia .widget-title {
+  color: #10122d;
+}
+
+.widget-links li a {
+  color: #10122d;
 }
