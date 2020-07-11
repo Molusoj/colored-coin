@@ -5467,7 +5467,7 @@ select:focus {
   width: 38px;
   text-align: center;
   color: #fff;
-  background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+  /* background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); */
   border-radius: 50%;
   margin-right: 15px;
 }
@@ -13583,7 +13583,7 @@ label.error {
 }
 .io-zinnia .section-bg-zinnia,
 .io-zinnia .section-bg-gradient {
-  background: #fe4350;
+  background: #1b203e;
   color: #fff;
 }
 .io-zinnia .section-bg-zinnia h1,
@@ -13975,7 +13975,7 @@ label.error {
   margin-bottom: 10px;
 }
 .io-zinnia .accordion-s2 .card.active {
-  border-color: rgba(254, 67, 80, 0.5);
+  border-color: none;
 }
 .io-zinnia .accordion-s2 .card-header a {
   color: #fe4350;
@@ -14012,9 +14012,9 @@ label.error {
 .io-zinnia .loader-section {
   background: #fff;
 }
-.io-zinnia .contact-info li .fa {
+.contact-info li .fa {
   color: #fff;
-  background: linear-gradient(-45deg, #fe4350 0%, #ff6c3f 100%);
+  /* background: linear-gradient(-45deg, #fe4350 0%, #ff6c3f 100%); */
 }
 .io-zinnia .form-message .input-field .input-line {
   color: #5a5d7a;

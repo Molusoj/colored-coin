@@ -25,7 +25,7 @@ h6 {
   z-index: 2;
 }
 .bc-blue {
-  background-color: #212b35;
+  background-color: #1b203e;
 }
 
 .site-header {
@@ -87,7 +87,7 @@ h6 {
 .io-zinnia .btn-gradient-button {
   text-align: center;
   transition: 0.5s;
-  color: #fff;
+  color: #10122d !important;
   box-shadow: 0 0 20px #eee;
   width: 200px;
   box-shadow: 0 1px 3px #dad8d6, 0 1px 2px #fff389;
@@ -105,6 +105,7 @@ h6 {
   margin: 8px 10px 12px;
 }
 .gradient-button-1 {
+  color: #10122d !important;
   background-image: linear-gradient(
     to right,
     #ffa42a 0%,
@@ -196,4 +197,122 @@ h6 {
 
 .sell-bitcoin h3 {
   color: #1b203e !important;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+  padding: 40px 0;
+}
+
+.inner-width {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.testimonial-section h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+}
+
+.border {
+  width: 100px;
+  height: 3px;
+  background: #333;
+  margin: 40px auto;
+}
+
+.testimonial {
+  background: #1b203e;
+  padding: 40px;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.test-info {
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+
+.test-pic {
+  width: 50px !important;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.test-name {
+  font-size: 12px;
+}
+
+.test-name span {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #3498db;
+}
+
+.testimonial p {
+  font-size: 12px;
+  line-height: 22px;
+  margin-top: 20px;
+}
+
+.section-title-s7 {
+  color: #10122d;
+  padding-bottom: 8px;
+  font-weight: 600;
+}
+
+/* Contact Section */
+.contact-info li .fa {
+  color: #10122d;
+  background: linear-gradient(-45deg, #ffa42a 0%, #fff389 100%) !important;
+}
+
+/* FAQ SECTION */
+.io-zinnia .tab-custom-s3 .nav-tabs .nav-link:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  border-radius: 6px;
+  background: #10122d;
+  z-index: -1;
+  opacity: 0;
+}
+
+.io-zinnia .accordion-s2 .card {
+  background: #10122d;
+  color: #fff;
+  border: 2px solid rgba(34, 59, 85, 0.15);
+  margin-bottom: 10px;
+}
+
+.io-zinnia .accordion-s2 .card.active {
+  background: #10122d;
+  color: #fff !important;
+}
+
+.io-zinnia .accordion-s2 .card-header a {
+  color: #fff;
+}
+.io-zinnia .accordion-s2 .card-header a:hover {
+  color: #fff;
+}
+
+.io-zinnia .accordion-s2 .collapsed .plus-minus .ti {
+  color: #00ec98;
+}
+.io-zinnia .accordion-s2 .plus-minus .ti {
+  color: #00ec98;
+}
+
+.io-zinnia .section-bg p,
+.io-zinnia .section-bg-alt p {
+  color: #fff;
 }
