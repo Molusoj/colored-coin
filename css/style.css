@@ -151,22 +151,6 @@ h6 {
   border-color: white;
 }
 
-.sidenav {
-  position: absolute;
-  right: 0;
-  width: 0px;
-  display: none;
-  z-index: 999;
-  background: transparent;
-  /* box-shadow: -10px 10px 512px 256px #000000cc; */
-  transition: 0.5s;
-  /* .flex-column */
-  -webkit-box-orient: vertical !important;
-  -webkit-box-direction: normal !important;
-  -ms-flex-direction: column !important;
-  flex-direction: column !important;
-}
-
 .logo-icon {
   width: 100px;
 }

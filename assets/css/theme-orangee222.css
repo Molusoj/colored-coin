@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  text-align: left;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #fff;
+  font-weight: 600;
+}
+.container-fluid {
+  z-index: 2;
+}
+.bc-blue {
+  background-color: #212b35;
+}
+
+.site-header {
+}
+
+.banner-zinnia {
+  background: #10122d !important;
+  overflow: hidden;
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.banner-zinnia:after {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "";
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  background-size: contain;
+}
+
+.site-headline {
+  font-size: 26px;
+}
+
+.mt-sm-5 {
+  margin-top: 2em;
+}
+.io-zinnia .navbar-toggler .ti {
+  color: #10122d;
+}
+
+.io-zinnia .active .navbar-toggler {
+  background: #10122d;
+}
+
+.io-zinnia .btn {
+  font-family: "Muli", sans-serif;
+  color: #fff;
+  border-radius: 23px;
+}
+
+.io-zinnia .btn:before {
+  border-radius: 23px;
+}
+
+.io-zinnia .btn-outline-s3 {
+  color: #fff;
+  padding-right: 34px;
+  padding-left: 34px;
+  border: 2px solid #dad8d6;
+  background-image: none !important;
+}
+
+.io-zinnia .btn-gradient-button {
+  text-align: center;
+  transition: 0.5s;
+  color: #fff;
+  box-shadow: 0 0 20px #eee;
+  width: 200px;
+  box-shadow: 0 1px 3px #dad8d6, 0 1px 2px #fff389;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.gradient-button:hover {
+  box-shadow: 0 10px 20px #fff389, 0 6px 6px #ffa42a;
+  margin: 8px 10px 12px;
+}
+.gradient-button-1 {
+  background-image: linear-gradient(
+    to right,
+    #ffa42a 0%,
+    #fff389 100%
+  ) !important;
+}
+.gradient-button-1:hover {
+  background-position: right center;
+}
+
+@media only screen and (max-width: 767px) {
+  .io-zinnia .banner {
+    min-height: auto;
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .io-zinnia .site-header .is-transparent + .banner .banner-content {
+    padding-bottom: 60px;
+  }
+}
