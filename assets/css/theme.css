@@ -92,6 +92,15 @@ h6 {
   border-radius: 23px;
 }
 
+.io-zinnia .btn::before {
+  background-image: linear-gradient(
+    to right,
+    #ffa42a 0%,
+    #fff389 100%
+  ) !important;
+  border-radius: 23px;
+}
+
 .io-zinnia .btn:before {
   border-radius: 23px;
 }
@@ -103,7 +112,10 @@ h6 {
   border: 2px solid #dad8d6;
   background-image: none !important;
 }
-
+.io-zinnia .btn-outline-s3:hover {
+  color: #fff;
+  background-image: ffa42a !important;
+}
 .io-zinnia .btn-gradient-button {
   text-align: center;
   transition: 0.5s;
@@ -132,7 +144,13 @@ h6 {
     #fff389 100%
   ) !important;
 }
-.gradient-button-1:hover {
+.gradient-button .gradient-button-1:hover {
+  color: #10122d !important;
+  background-image: linear-gradient(
+    to right,
+    #ffa42a 0%,
+    #fff389 100%
+  ) !important;
   background-position: right center;
 }
 
@@ -364,4 +382,27 @@ h6 {
 
 .widget-links li a {
   color: #10122d;
+}
+
+.social li a {
+  color: #10122d;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 30px;
+}
+
+.social li a:hover {
+  color: #10122d;
+  background: #ffa42a;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 30px;
 }

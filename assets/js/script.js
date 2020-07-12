@@ -97,7 +97,200 @@
         0 !== v.has(e.target).length ||
         (a(".navbar-collapse").collapse("hide"), v.removeClass("active"));
     });
-
+  var u = a(".timeline-carousel");
+  if (u.length > 0) {
+    var f = !!i.hasClass("is-rtl");
+    u.addClass("owl-carousel").owlCarousel({
+      navText: [
+        "<i class='ti ti-angle-left'></i>",
+        "<i class='ti ti-angle-right'></i>",
+      ],
+      items: 6,
+      nav: !0,
+      margin: 30,
+      rtl: f,
+      responsive: {
+        0: { items: 1 },
+        400: { items: 2, center: !1 },
+        599: { items: 3 },
+        1024: { items: 5 },
+        1170: { items: 6 },
+      },
+    });
+  }
+  var x = a(".roadmap-carousel");
+  if (x.length > 0) {
+    var b = !!i.hasClass("is-rtl");
+    x.addClass("owl-carousel").owlCarousel({
+      items: 6,
+      nav: !1,
+      dost: !0,
+      margin: 30,
+      rtl: b,
+      responsive: {
+        0: { items: 1 },
+        400: { items: 2, center: !1 },
+        599: { items: 3 },
+        1024: { items: 4 },
+        1170: { items: 5 },
+      },
+    });
+  }
+  var w = a(".roadmap-carousel-withnav");
+  if (w.length > 0) {
+    var k = !!i.hasClass("is-rtl");
+    w.addClass("owl-carousel").owlCarousel({
+      navText: [
+        "<i class='ti ti-angle-left'></i>",
+        "<i class='ti ti-angle-right'></i>",
+      ],
+      items: 5,
+      nav: !0,
+      dost: !1,
+      margin: 30,
+      rtl: k,
+      responsive: {
+        0: { items: 1 },
+        400: { items: 2, center: !1 },
+        599: { items: 3 },
+        1024: { items: 4 },
+        1170: { items: 5 },
+      },
+    });
+  }
+  var C = a(".prblmsltn-list");
+  if (C.length > 0) {
+    var y = !!i.hasClass("is-rtl");
+    C.addClass("owl-carousel").owlCarousel({
+      navText: [
+        "<i class='fas fa-arrow-left'></i>",
+        "<i class='fas fa-arrow-right'></i>",
+      ],
+      items: 1,
+      margin: 30,
+      nav: !0,
+      dost: !1,
+      autoplay: !0,
+      loop: !0,
+      animateOut: "fadeOut",
+      autoHeight: !0,
+      rtl: y,
+    });
+  }
+  var z = a(".has-carousel");
+  if (z.length > 0) {
+    var A = !!i.hasClass("is-rtl");
+    z.each(function () {
+      var e = a(this),
+        i = e.data("items") ? e.data("items") : 4,
+        l = i >= 3 ? 2 : i,
+        t = l >= 2 ? 1 : l,
+        s = e.data("delay") ? e.data("delay") : 6e3,
+        n = !!e.data("auto"),
+        r = !!e.data("loop"),
+        d = !!e.data("dots"),
+        o = !!e.data("navs"),
+        m = !!e.data("center"),
+        c = e.data("margin") ? e.data("margin") : 30;
+      e.addClass("owl-carousel").owlCarousel({
+        navText: [
+          "<i class='fa fa-angle-left'></i>",
+          "<i class='fa fa-angle-right'></i>",
+        ],
+        items: i,
+        loop: r,
+        nav: o,
+        dots: d,
+        margin: c,
+        center: m,
+        autoplay: n,
+        autoplayTimeout: s,
+        autoplaySpeed: 300,
+        rtl: A,
+        responsive: {
+          0: { items: 1 },
+          480: { items: t },
+          768: { items: l },
+          1170: { items: i },
+        },
+      });
+    });
+  }
+  var P = a(".token-countdown");
+  P.length > 0 &&
+    P.each(function () {
+      var e = a(this),
+        i = e.attr("data-date");
+      e.countdown(i).on("update.countdown", function (e) {
+        a(this).html(
+          e.strftime(
+            '<div class="col"><span class="countdown-time countdown-time-first">%D</span><span class="countdown-text">D<span>ays</span></span></div><div class="col"><span class="countdown-time">%H</span><span class="countdown-text">H<span>ours</span></span></div><div class="col"><span class="countdown-time">%M</span><span class="countdown-text">M<span>inutes<span></span></div><div class="col"><span class="countdown-time countdown-time-last">%S</span><span class="countdown-text">S<span>econds</span></span></div>'
+          )
+        );
+      });
+    });
+  var D = a(".countdown-s2");
+  D.length > 0 &&
+    D.each(function () {
+      var e = a(this),
+        i = e.attr("data-date");
+      e.countdown(i).on("update.countdown", function (e) {
+        a(this).html(
+          e.strftime(
+            '<div class="countdown-s2-item"><span class="countdown-s2-time countdown-time-first">%D</span><span class="countdown-s2-text">Days</span></div><div class="countdown-s2-item"><span class="countdown-s2-time">%H</span><span class="countdown-s2-text">Hours</span></div><div class="countdown-s2-item"><span class="countdown-s2-time">%M</span><span class="countdown-s2-text">Min</span></div><div class="countdown-s2-item"><span class="countdown-s2-time countdown-time-last">%S</span><span class="countdown-s2-text">Sec</span></div>'
+          )
+        );
+      });
+    });
+  var j = a(".content-popup");
+  j.length > 0 &&
+    j.magnificPopup({
+      type: "inline",
+      preloader: !0,
+      removalDelay: 400,
+      mainClass: "mfp-fade bg-team-exp",
+    });
+  var L = a(".video-play");
+  L.length > 0 &&
+    L.magnificPopup({
+      type: "iframe",
+      removalDelay: 160,
+      preloader: !0,
+      fixedContentPos: !1,
+      callbacks: {
+        beforeOpen: function () {
+          (this.st.image.markup = this.st.image.markup.replace(
+            "mfp-figure",
+            "mfp-figure mfp-with-anim"
+          )),
+            (this.st.mainClass = this.st.el.attr("data-effect"));
+        },
+      },
+    });
+  var S = a(".imagebg");
+  S.length > 0 &&
+    S.each(function () {
+      var e = a(this),
+        i = e.parent(),
+        l = e.data("overlay"),
+        t = e.children("img").attr("src"),
+        s = void 0 !== l && "" !== l && l.split("-");
+      void 0 !== t &&
+        "" !== t &&
+        (i.hasClass("has-bg-image") || i.addClass("has-bg-image"),
+        "" !== s &&
+          "dark" === s[0] &&
+          (i.hasClass("light") || i.addClass("light")),
+        e
+          .css("background-image", 'url("' + t + '")')
+          .addClass("bg-image-loaded"));
+    });
+  var T = a('[class*="mask-ov"]');
+  T.length > 0 &&
+    T.each(function () {
+      var e = a(this).parent();
+      e.hasClass("has-maskbg") || e.addClass("has-maskbg");
+    });
   var H = a("#contact-form"),
     V = a("#subscribe-form");
   if (H.length > 0 || V.length > 0) {
@@ -162,6 +355,25 @@
     }
   }
 
+  var Y = a(".color-trigger");
+  Y.length > 0 &&
+    Y.on("click", function () {
+      var e = a(this).attr("title");
+      return a("#layoutstyle").attr("href", "assets/css/" + e + ".css"), !1;
+    });
+  var J = a(".input-line");
+  J.length > 0 &&
+    J.each(function () {
+      var e = a(this);
+      a(this).val().length > 0 && e.parent().addClass("input-focused"),
+        e.on("focus", function () {
+          e.parent().addClass("input-focused");
+        }),
+        e.on("blur", function () {
+          e.parent().removeClass("input-focused"),
+            a(this).val().length > 0 && e.parent().addClass("input-focused");
+        });
+    });
   var K = a(".animated");
   a().waypoint &&
     K.length > 0 &&
