@@ -37,6 +37,11 @@ h6 {
   max-height: 80px;
 }
 
+.io-zinnia .site-header .navbar-nav > li > a:hover,
+.io-zinnia .site-header .navbar-nav > li > a.active {
+  color: #ffa42a;
+}
+
 .io-zinnia .site-header.has-fixed .navbar-nav > li > a:hover,
 .io-zinnia .site-header.has-fixed .navbar-nav > li > a.active {
   color: #ffa42a;

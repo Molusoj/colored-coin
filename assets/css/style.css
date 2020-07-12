@@ -15006,56 +15006,6 @@ label.error {
   display: none;
 }
 
-.ui-shape {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  left: 50%;
-  overflow: hidden;
-  transform: translateX(-50%);
-}
-.ui-shape:before,
-.ui-shape:after {
-  position: absolute;
-  content: "";
-  height: 210px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  transition: all 0.4s;
-}
-.ui-shape:before {
-  top: 15%;
-  left: -4%;
-  width: 100px;
-  background-image: url(../images/shape-a-red.png);
-}
-.ui-shape:after {
-  bottom: 10%;
-  right: -4%;
-  width: 90px;
-  background-image: url(../images/shape-b-red.png);
-}
-.ui-shape-light:before {
-  background-image: url(../images/shape-a-wh.png);
-}
-.ui-shape-light:after {
-  background-image: url(../images/shape-b-wh.png);
-}
-.ui-shape-s1:after {
-  transform: rotate(60deg);
-}
-.ui-shape-s3:before {
-  top: auto;
-  bottom: 20%;
-}
-.ui-shape-s3:after {
-  top: 10%;
-  bottom: auto;
-}
-
 @media (min-width: 576px) {
   .ui-shape:before {
     width: 140px;
