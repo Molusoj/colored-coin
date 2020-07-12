@@ -406,3 +406,13 @@ h6 {
   border-radius: 50%;
   line-height: 30px;
 }
+
+.io-zinnia .footer-bottom .copyright-text {
+  margin-top: 0;
+  color: #10122d !important;
+}
+
+.io-zinnia .footer-bottom .copyright-text a:visited {
+  color: #10122d !important;
+  text-decoration: none;
+}
