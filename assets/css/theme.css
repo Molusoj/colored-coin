@@ -238,11 +238,17 @@ h6 {
 .service-item {
   padding: 15px;
   /* max-width: 450px; */
-
+  height: 255px !important;
   background-color: #10122d;
   color: white !important;
   border-radius: 15px;
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+  .service-item {
+    height: auto;
+  }
 }
 
 .service-icon {
