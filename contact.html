@@ -189,7 +189,7 @@
               <form
                 id="contact-form"
                 class="form-message text-center show-error-hint"
-                action="#"
+                action="contact.php"
                 method="post"
               >
                 <div class="form-results"></div>
@@ -205,9 +205,20 @@
                   /><label class="input-title">Your Name</label>
                 </div>
                 <div
+                class="input-field animated"
+                data-animate="fadeInUp"
+                data-delay=".7"
+              >
+                <input
+                  name="contact-subject"
+                  type="subject"
+                  class="input-line required"
+                /><label class="input-title">Subject</label>
+              </div>
+                <div
                   class="input-field animated"
                   data-animate="fadeInUp"
-                  data-delay=".7"
+                  data-delay=".8"
                 >
                   <input
                     name="contact-email"
@@ -218,7 +229,7 @@
                 <div
                   class="input-field animated"
                   data-animate="fadeInUp"
-                  data-delay=".8"
+                  data-delay=".9"
                 >
                   <textarea
                     name="contact-message"
@@ -235,7 +246,7 @@
                 <div
                   class="input-field animated"
                   data-animate="fadeInUp"
-                  data-delay=".9"
+                  data-delay=".10"
                 >
                   <button
                     type="submit"
