@@ -253,7 +253,7 @@ h6 {
 
 .service-icon {
   position: relative;
-  width: 80px;
+  /* width: 80px; */
   /* transform: rotate(-45deg); */
   margin-bottom: 25px;
 }
