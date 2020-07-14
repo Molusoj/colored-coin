@@ -235,6 +235,10 @@ h6 {
   background-position: 50% 50%;
 }
 
+.service-title {
+  font-size: 14px !important;
+}
+
 .service-item {
   padding: 15px;
   /* max-width: 450px; */
@@ -243,6 +247,10 @@ h6 {
   color: white !important;
   border-radius: 15px;
   margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 12px !important;
 }
 
 @media only screen and (max-width: 576px) {
