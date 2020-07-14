@@ -7951,7 +7951,7 @@ label.error {
     padding-bottom: 120px;
   }
   .io-zinnia .banner {
-    min-height: 92vh;
+    min-height: 100vh;
   }
 }
 @media only screen and (max-width: 767px) {
