@@ -8,7 +8,7 @@ if (isset($_POST['submit'])) {
     $message = $_POST['contact-message'];
 
 
-    $mailTo = "Olusoji200@gmail.com";
+    $mailTo = "hello@ColouredKoin.com";
     $headers = "From:".$emailFrom;
     $txt = "You have received an email from ".$name.".\n\n".$message;
 

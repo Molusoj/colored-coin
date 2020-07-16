@@ -379,6 +379,172 @@ h6 {
 }
 
 /* FAQ SECTION */
+
+.tab-custom .nav-tabs {
+  background: none;
+  border-bottom: 2px solid rgba(122, 15, 255, 0.2);
+  display: table;
+  width: 100%;
+}
+.tab-custom .nav-tabs.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.tab-custom .nav-tabs li.nav-item {
+  display: table-cell;
+  float: none;
+  margin-bottom: 0;
+}
+.tab-custom .nav-tabs li > a {
+  text-align: center;
+  border-radius: 0px;
+  padding: 10px 2px;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+}
+.tab-custom .nav-tabs li > a:hover {
+  border-bottom-color: transparent;
+  color: #46bdf4;
+}
+.tab-custom .nav-tabs li > a img {
+  height: 60px;
+  width: auto;
+  margin-top: -5px;
+}
+.tab-custom .nav-tabs li > a.active,
+.tab-custom .nav-tabs li > a.active:hover,
+.tab-custom .nav-tabs li > a.active:focus,
+.tab-custom .nav-tabs li > a.active:hover,
+.tab-custom .nav-tabs li > a.active:focus {
+  border-bottom-color: #46bdf4;
+  color: #fff;
+  background: transparent;
+}
+.tab-custom .tab-content {
+  background: none;
+  padding: 30px 0 0;
+}
+.tab-custom .tab-content h4 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+.tab-custom .tab-content a {
+  padding: 8px 16px;
+  margin-top: 25px;
+}
+.tab-custom-s2 .nav-tabs {
+  border-bottom: none;
+  display: block;
+}
+.tab-custom-s2 .nav-tabs li.nav-item {
+  display: inline-block;
+}
+.tab-custom-s2 .nav-tabs li > a {
+  padding: 10px 8px;
+  font-weight: 400;
+  margin: 0 20px;
+  color: #fff;
+  opacity: 0.5;
+  border-bottom-width: 1px;
+  display: inline-block;
+}
+.tab-custom-s2 .nav-tabs li > a:hover {
+  opacity: 1;
+  color: #fff;
+}
+.tab-custom-s2 .nav-tabs li > a.active,
+.tab-custom-s2 .nav-tabs li > a.active:hover,
+.tab-custom-s2 .nav-tabs li > a.active:focus,
+.tab-custom-s2 .nav-tabs li > a.active:hover,
+.tab-custom-s2 .nav-tabs li > a.active:focus {
+  border-bottom-color: #2b56f5;
+  color: #fff;
+  opacity: 1;
+}
+.section-pro .tab-custom-s2 .nav-tabs li > a,
+.section-pro-alt .tab-custom-s2 .nav-tabs li > a {
+  color: #1641b5;
+}
+.section-pro .tab-custom-s2 .nav-tabs li > a:hover,
+.section-pro-alt .tab-custom-s2 .nav-tabs li > a:hover {
+  opacity: 1;
+  color: #1641b5;
+}
+.section-pro .tab-custom-s2 .nav-tabs li > a.active,
+.section-pro .tab-custom-s2 .nav-tabs li > a.active:hover,
+.section-pro .tab-custom-s2 .nav-tabs li > a.active:focus,
+.section-pro .tab-custom-s2 .nav-tabs li > a.active:hover,
+.section-pro .tab-custom-s2 .nav-tabs li > a.active:focus,
+.section-pro-alt .tab-custom-s2 .nav-tabs li > a.active,
+.section-pro-alt .tab-custom-s2 .nav-tabs li > a.active:hover,
+.section-pro-alt .tab-custom-s2 .nav-tabs li > a.active:focus,
+.section-pro-alt .tab-custom-s2 .nav-tabs li > a.active:hover,
+.section-pro-alt .tab-custom-s2 .nav-tabs li > a.active:focus {
+  border-bottom-color: #2b56f5;
+  color: #1641b5;
+  opacity: 1;
+}
+
+.theme-light .tab-custom .nav-tabs li > a,
+.io-dark-light .section-light .tab-custom .nav-tabs li > a,
+.io-dark-light .section-light-alt .tab-custom .nav-tabs li > a {
+  color: #3c3c3c;
+}
+.theme-light .tab-custom .nav-tabs li > a:hover,
+.io-dark-light .section-light .tab-custom .nav-tabs li > a:hover,
+.io-dark-light .section-light-alt .tab-custom .nav-tabs li > a:hover {
+  color: #46bdf4;
+}
+.theme-light .tab-custom .nav-tabs li > a.active,
+.theme-light .tab-custom .nav-tabs li > a.active:hover,
+.theme-light .tab-custom .nav-tabs li > a.active:focus,
+.theme-light .tab-custom .nav-tabs li > a.active:hover,
+.theme-light .tab-custom .nav-tabs li > a.active:focus,
+.io-dark-light .section-light .tab-custom .nav-tabs li > a.active,
+.io-dark-light .section-light .tab-custom .nav-tabs li > a.active:hover,
+.io-dark-light .section-light .tab-custom .nav-tabs li > a.active:focus,
+.io-dark-light .section-light .tab-custom .nav-tabs li > a.active:hover,
+.io-dark-light .section-light .tab-custom .nav-tabs li > a.active:focus,
+.io-dark-light .section-light-alt .tab-custom .nav-tabs li > a.active,
+.io-dark-light .section-light-alt .tab-custom .nav-tabs li > a.active:hover,
+.io-dark-light .section-light-alt .tab-custom .nav-tabs li > a.active:focus,
+.io-dark-light .section-light-alt .tab-custom .nav-tabs li > a.active:hover,
+.io-dark-light .section-light-alt .tab-custom .nav-tabs li > a.active:focus {
+  color: #3c3c3c;
+}
+
+@media only screen and (max-width: 767px) {
+  .tab-custom .tab-content {
+    padding: 25px 0 30px;
+  }
+  .tab-custom .nav-tabs li.nav-item > a {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .tab-custom .nav-tabs li.nav-item {
+    display: block;
+    width: 100%;
+  }
+  .tab-custom .nav-tabs li.nav-item > a {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.tab-custom-s3 .nav-tabs .nav-item {
+  margin: 5px 6px;
+}
+
 .io-zinnia .tab-custom-s3 .nav-tabs .nav-link:before {
   position: absolute;
   left: 0;
@@ -418,6 +584,23 @@ h6 {
 .io-zinnia .accordion-s2 .card.active {
   background: #10122d;
   color: #fff !important;
+}
+.accordion-s2 .card-body {
+  padding: 0 30px 25px;
+}
+
+.accordion-s2 .card-header {
+  border: none;
+  background: none;
+  position: relative;
+  padding: 0;
+}
+.accordion-s2 .card-header a {
+  font-weight: 400;
+  padding: 25px 30px 15px;
+  display: block;
+  margin-top: 0;
+  cursor: pointer;
 }
 
 .io-zinnia .accordion-s2 .card-header a {
